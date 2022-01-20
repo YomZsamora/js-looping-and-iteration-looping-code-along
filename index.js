@@ -6,3 +6,11 @@ let writeCards = (listOfNames, nameOfEvent) => {
    }
    return thankYouMessages;
 }
+
+// Invokes console.log once for each number, counting down from the number provided to zero
+let countDown = (i) => {
+   while (i >= 0) {
+      console.log(i);
+      i--
+   }
+}
