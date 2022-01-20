@@ -6,3 +6,10 @@ let writeCards = (listOfNames, nameOfEvent) => {
    }
    return thankYouMessages;
 }
+
+let countDown = (i) => {
+   while (i >= 0) {
+      console.log(i);
+      i--
+   }
+}
